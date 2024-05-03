@@ -6,39 +6,23 @@ Accurate weather prediction is essential for various sectors, including agricult
 
 Weather forecasting plays a critical role in numerous sectors, influencing decision-making processes and resource management. Traditional meteorological methods have limitations in addressing complex and fluctuating weather data. This project aims to overcome these limitations by applying machine learning algorithms to classify weather patterns, specifically focusing on rainfall prediction.
 
-## Literature Review on Machine Learning in Weather Prediction
+## Data Source
 
-The evolution from traditional to data-driven forecasting has revolutionized weather prediction. Machine learning offers innovative approaches to analyzing complex weather data and improving forecasting accuracy. Recent advances in machine learning algorithms, such as convolutional neural networks and logistic regression, have significantly enhanced weather prediction capabilities.
+The dataset used in this project is the 'Weather Dataset Rattle Package' available on Kaggle. This dataset provides comprehensive weather information recorded across various locations in Australia. It includes attributes such as temperature, humidity, wind speed, and rainfall, making it suitable for training machine learning models to predict rainfall probabilities.
 
-## Specification of the Chosen Problem Area
+## Code Implementation
 
-The project focuses on classifying weather conditions, particularly rainfall, using the 'weatherAUS.csv' dataset. By predicting rain probabilities, this research contributes to better decision-making in various sectors impacted by weather.
+The code implements several machine learning algorithms, including logistic regression, decision trees, random forest, Gaussian naive Bayes, and MLP classifier. It follows a structured approach to data analysis and pre-processing, including exploratory data analysis, feature engineering, and scaling. Hyperparameter tuning is performed using GridSearchCV to optimize model performance.
 
-## Comparative Analysis of Existing Works
+## Model Evaluation
 
-Existing studies demonstrate the effectiveness of machine learning in weather prediction. However, this project introduces novel methodologies tailored to Australia's unique meteorological challenges, enhancing classification accuracy.
-
-## Data Analysis and Pre-processing
-
-The 'weatherAUS.csv' dataset contains diverse weather attributes, necessitating thorough pre-processing to refine the data for machine learning algorithms.
-
-## Application of Machine Learning Algorithms
-
-Multiple algorithms, including logistic regression and decision trees, are applied to classify weather patterns. Hyperparameter tuning and model evaluation are conducted to optimize performance.
-
-## Model Adjustments and Improvements
-
-Initial model accuracies are assessed, followed by hyperparameter tuning to enhance performance. The impact of tuning on each algorithm's accuracy and classification metrics is analyzed.
-
-## Identifying the Optimal Algorithm
-
-Random Forest emerges as the optimal model due to its high accuracy, robustness, and ability to handle unbalanced data.
-
-## Assessing Model Fit: Tackling Underfitting and Overfitting
-
-Models are evaluated for underfitting and overfitting, with Random Forest demonstrating effective generalization despite initial indications of overfitting.
+The performance of each model is evaluated using metrics such as accuracy, precision, recall, F1-score, ROC AUC, confusion matrices, and cross-validation accuracy. The models are assessed for underfitting and overfitting to ensure robustness and generalization.
 
 ## Conclusion
 
-The project contributes to meteorological science by demonstrating the efficacy of machine learning in weather prediction. Random Forest emerges as the best algorithm, paving the way for future advancements in forecasting accuracy and decision-making across various sectors impacted by weather conditions.
+By applying machine learning algorithms to weather data, this project demonstrates the potential to improve Australian weather forecasting accuracy. The use of the 'Weather Dataset Rattle Package' from Kaggle provides a rich source of information for training and evaluating predictive models. Further advancements in machine learning techniques hold promise for enhancing weather prediction capabilities and supporting informed decision-making in various sectors.
+
+## Reference
+
+- Kaggle Dataset: "Weather Dataset Rattle Package". [Available at](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package).
 
